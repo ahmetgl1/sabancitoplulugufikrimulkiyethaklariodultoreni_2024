@@ -1,4 +1,4 @@
-﻿.AnaPencere {
+.AnaPencere {
     background: url(../Gorseller/Banner_Yatay.png);
     background-size: cover;
     background-position: center;
@@ -14,20 +14,17 @@
     text-align: center;
 }
 
-#PnlSertifikalar{
-    margin-bottom: 10rem;
+#PnlSertifikalar {
+    margin-top: auto;
 }
-
 
 .KimlikNo {
     width: 60%;
     margin: 0 auto;
     margin-top: 3rem;
 }
-.btn{
 
-    margin-top: 0.5rem;
-}
+
 
     .KimlikNo input[type=text] {
         height: inherit;
@@ -35,87 +32,6 @@
         text-align: center;
         padding: 0.075rem .75rem;
     }
-
-@media screen and (max-width:1024px) {
-    .KimlikNo {
-        width: 83%;
-        font-size: 0.6em;
-        margin: auto;
-        margin-bottom: 1rem;
-    }
-        .KimlikNo input[type=text] {
-            height: inherit;
-            font-size: 2.5em;
-            text-align: center;
-            padding: 0.075rem .75rem;
-        }
-
-    #PnlSertifikalar {
-        margin-top: -2rem;
-    }
-
-    .AnaPencere {
-        background: url(../Gorseller/Banner_Dikey.png?v=1);
-        background-size: cover;
-        background-position: center;
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        display: table;
-    }
-
-
-
-    .KimlikNo input[type=text] {
-        font-size: 2.5em;
-        margin-top: 1rem;
-        height: inherit;
-        padding: 0.075rem .75rem;
-    }
-    .btn {
-        width: 83%;
-        font-size: 0.9em;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .KimlikNo {
-        width: 60%; 
-    }
-        .KimlikNo input[type=text] {
-            font-size: 2.5em;
-            margin-top: 1rem;
-            height: inherit;
-            padding: 0.075rem .75rem;
-        }
-
-    #PnlSertifikalar {
-       
-        margin-top: 5rem;
-    }
-    #p_AdSoyad {
-        text-transform: uppercase;
-        font-size: 0.1em;
-        font-weight: 400;
-        text-align: center;
-        
-    }
-
-    #btnDiv {
-        width: 80%;
-        font-size: 0.5em;
-        margin-bottom: 1rem;
-    }
-}
-@media screen and (max-width: 580px) {
-    .KimlikNo input[type=text]::placeholder {
-        font-size: 0.7em;
-        font-weight: 500;
-        color: #6C757D;
-        text-align: center;
-    }
-}
-
 
 .Sertifikalar {
     display: flex;
@@ -130,59 +46,129 @@
     text-transform: uppercase;
     font-size: 0.7em;
     font-weight: 500;
+    margin-top: 2rem;
 }
 
 .btn {
     width: 100%;
-    max-width: 200px; 
-    margin-top: 0.5rem;
+    margin-top: 1rem;
+}
+/*responsive !*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .KimlikNo {
+        width: 100%;
+        font-size: 0.6em;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+        .KimlikNo input[type=text] {
+            font-size: 2.5em;
+        }
+
+    .AnaPencere {
+        background: url(../Gorseller/Banner_Dikey.png?v=1);
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 0.9em;
+    }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive !*/
 @media screen and (max-width: 768px) {
+    .KimlikNo {
+        width: 60%;
+    }
+
+        .KimlikNo input[type=text] {
+            font-size: 2.5em;
+            margin-top: 1rem;
+        }
+
+    #btnDiv {
+        width: 100%;
+        font-size: 0.5em;
+    }
+
     .Sertifikalar {
         padding-top: 10%;
     }
 
     #p_AdSoyad {
-        font-size: 1.2em;
-        font-size: 0.5em;
-        font-weight: 500;
+        font-size: 1em;
+        margin-top: 4rem;
     }
 
     .btn {
-        font-size: 0.6em; 
-        
+        font-size: 0.6em;
     }
-}
 
-.Sertifikalar {
-    padding-top: 15%;
-}
-
-
-#PnlSertifikalar {
-    font-size: 2.2em;
-}
-
-
-#p_AdSoyad {
-    text-transform: uppercase;
-}
-
-.btn {
-    width: auto;
-}
-
-@media screen and (min-width: 768px) {
     #PnlSertifikalar {
         font-size: 1.8em;
-        margin-top: 1rem;
-    }
-
-    .btn {
-        width: 150px;
-        margin-top:  50px;
     }
 }
 
- 
+/*responsive !*/
+
+
+@media screen and (max-width: 580px) {
+    .KimlikNo input[type=text]::placeholder {
+        font-size: 0.7em;
+        font-weight: 500;
+        color: #6C757D;
+    }
+}
+
+
+/*responsive !*/
+
+@media screen and (max-width: 418px) {
+    #p_AdSoyad {
+        font-size: 4rem;
+        margin-top: 4rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+/*responsive !*/
